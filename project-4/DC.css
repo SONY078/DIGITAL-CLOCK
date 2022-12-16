@@ -1,0 +1,952 @@
+html
+{
+    /* background-color:#3D087B ; */
+    background: linear-gradient(#6007c6,#560caa,#3D087B,#26074a) no-repeat;
+    height: 100%;
+}
+.clock
+{
+    position: absolute;
+    top: 34px;
+    left: 124px; 
+    width: 204px;
+    height: 77px;
+}
+.w
+{
+    position: absolute;
+    top: 120px;
+    left: 124px;
+    width: 566px;
+    height: 363px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 100;
+}
+
+.glass1
+{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 590px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+.glass2
+{
+    position: absolute;
+    top: 30px;
+    left: 214px;
+    width: 150px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 0;
+    /* transform: rotate(150deg); */
+}
+.glass3
+{
+    position: absolute;
+    top: 0px;
+    left: 324px;
+    width: 100px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 0;
+    transform: rotate(50deg);
+}
+.sw
+{
+    position: absolute;
+    top: 14px;
+    left: 25px;
+    width: 566px;
+    height: 363px;
+    width: 517px;
+    height: 335px;
+    z-index: 10;
+
+}
+/* .w1
+{
+    position: absolute;
+    top: 163px;
+    left: 149px;
+    width: 517px;
+    height: 335px;
+} */
+.wakeup
+{
+    position: absolute;
+    top: 6px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+.lunch
+{
+    position: absolute;
+    top: 96px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+.nap
+{
+    position: absolute;
+    top: 196px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+.fa-solid
+{
+    width: 34px;
+    height: 34px;
+    font-size: 27px;
+    color: #FFFFFF;
+    opacity: 13;
+    /* background-color: #3D087B; */
+}
+.fa-cloud-moon
+{
+    width: 34px;
+    height: 34px;
+
+}
+
+.night
+{
+    position: absolute;
+    top: 296px;
+    left: 25px;
+    width: 54px;
+    height: 54px;
+}
+p
+{
+    width: 141px;
+    height: 23px;
+    position: absolute;
+    top: -10px;
+    left: 55px;
+    color: #FFFFFF;
+}
+select
+{
+    width: 281px;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    /* border: 1px solid #EDEDED; */
+    /* border-radius: 4px; */
+    opacity: 1;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+      
+}
+.opt
+{
+    /* width: 86px;
+    height: 18px; */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 14px/20px var(--unnamed-font-family-manrope);
+    text-align: left;
+    font: normal normal normal 14px/20px Manrope;
+    letter-spacing: 0.25px;
+    color: #ffffffde;
+    opacity: 1;  
+    background-color: #3D087B;
+}
+.message
+{
+    position: absolute;
+    top:507px;
+    left:124px;
+    width: 566px;
+    height: 77px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed); 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* background-color: #514588; */
+   
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+    
+}
+.m
+{
+    width: 381px;
+    height: 34px;
+    position: absolute;
+    top: 535px;
+    left: 155px;
+    /* color: white; */
+    color: #FFFFFF;
+    font-weight: 1000;
+    /* font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Comic Neue', cursive; */
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Telex', sans-serif;
+    
+}
+/* .party
+{   width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 21px;
+    /* font: normal normal 600 24px/38px Manrope; */
+  /*  letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 1;
+} */
+.seta
+{   width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 21px;
+    /* font: normal normal 600 24px/38px Manrope; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 1;
+}
+.alarm
+{
+    width: 299px;
+    height: 50px;
+    position: absolute;
+    top: 604px;
+    left: 124px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    animation: all 6s;
+    z-index: 2;
+    transition: all 2s;
+
+}
+.alarm:hover
+{
+    /* color: #6E54EC ; */
+    /* background-color: #6E54EC; */
+    content: "party time";
+    background: transparent linear-gradient(113deg,
+    #6E54EC 0%, 
+    #6E54EC 40%,
+    #6e54ec 81%,
+    #6E54EC 100%) 0% 0% no-repeat padding-box;
+}
+.a:hover
+{
+    /* opacity: 0;
+    transition-duration: .3s; */
+    display: none;
+}
+
+.a:hover::before
+{
+    content: "Party time";
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 21px;
+    /* font: normal normal 600 24px/38px Manrope; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* .a:hover.party
+{
+    opacity: 1;
+    transition-duration: .3s;
+    /* display: none; 
+} */
+/* .a:hover.party
+{
+    content: "party time";
+} */
+.con
+{
+    position: absolute;
+    top: 604px;
+    left: 437px;
+    width: 253px;
+    height: 117px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #560caa 0% 0% no-repeat padding-box;
+    border: 0.5px solid #434be7;
+    border-radius: 10px;
+    /* opacity: 0.23; */
+}
+.c
+{
+    position: absolute;
+    top: 610px;
+    left: 440px;
+    font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    color: #F25CFE;
+    opacity: 1;
+}
+.time
+{
+    position: absolute;
+    top: 42px;
+    left: 706px;
+    width: 536px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #2b0556 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 10;
+}
+.t
+{
+    top: 62px;
+    left: 745px;
+    width: 458px;
+    height:90px;
+    z-index: 10;
+    display: flex;
+    gap: 20px;
+    background-color: #2b0556;
+    z-index: 10;
+    padding: 14px 30px;
+    border-radius: 10px;
+}
+.t1
+{
+    position: absolute;
+    top: 46px;
+    left: 39px;
+    width: 46px;
+    height: 26px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3d087b);
+    text-align: left;
+    font: normal normal 600 20px/32px Manrope;
+    letter-spacing: 0px;
+    color: #3D087B;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 3;
+}
+#times div
+{
+    /* position: absolute;
+    top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* color: #430689 ; */
+    color: #ededed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.t5
+{
+    position: absolute;
+    top: 20px;
+    left: 410px;
+    width: 80px;
+    height: 90px;
+    background: transparent url('./2a127517-24ac-492a-9b8e-ae427712cf28.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 3;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.t .cir
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.t .cir svg
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform: rotate(270deg);
+}
+.t .cir svg circle
+{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #191919;
+    stroke-width: 4;
+    transform: translate(5px,5px);
+}
+.t .cir svg circle:nth-child(2)
+{
+    stroke: var(--clr);
+    stroke-dasharray: 282;
+} 
+.t div
+{
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.t div span
+{
+    position: absolute;
+    transform: translate(-75%) translateY(25px);
+    font-size: 0.35em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.dot
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot::before
+{
+    content: '';
+    position: absolute;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    background: var(--clr);
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--clr),
+    0 0 60px var(--clr);
+}
+.zi1
+{
+    position: absolute;
+    top: 55px;
+    left: 766px;
+    width: 416px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.71;    
+    z-index: 2;
+}
+.zi2
+{
+    position:absolute;
+    top: 67px;
+    left: 785px;
+    width: 379px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.22;    
+    z-index: 1;
+}
+.bf
+{
+    position: absolute;
+    top: 212px;
+    left: 706px;
+    width: 536px;
+    height: 118px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;   
+
+}
+.bfm
+{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-weight: bold;
+    color: #8E53F0;
+    font-size: 23px;
+    --unnamed-font-family-bauhaus-hv-bt: Bauhaus Hv BT;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Telex', sans-serif;
+    
+}
+.fr
+{
+    position: absolute;
+    top: 345px;
+    left: 707px;
+    width: 600px;
+    height: 536px;
+    border-radius: 9px;
+    /* background: transparent url('./01437d4a-75ea-47f7-b8ab-e06ac4338bc6.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;   
+}
+#mrng
+{
+    width: 540px;
+    height: 386px;
+}
+#afternoon
+{
+    width: 540px;
+    height: 386px;
+}
+#evening
+{
+    width: 540px;
+    height: 386px;  
+}
+#gn
+{
+    width: 540px;
+    height: 386px;
+}
+.ss{
+    width: 536px;
+    height: 341px; 
+}
+.watch
+{
+    position: absolute;
+    top: 49px;
+    left: 16px;
+    width: 56px;
+    height: 28px;
+    font-size: 16px;
+    color: #5F0089;
+    opacity: 1;
+}
+.wwa
+{
+    position: absolute;
+    top: 28px;
+    left: 22px;
+    width: 48px;
+    height: 43px;
+    font-size: 25px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+span
+{
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    width: 33px;
+    height: 43px;
+    font-size: 32px;
+    color: #8A11BF;
+    opacity: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col
+{
+   color: #8A11BF;
+   width: 6px;
+   height: 22px;
+   font-weight: bold;
+   font-size: 20px;
+   position: absolute;
+   top: 49px;
+   left: 199.7px; 
+   z-index: 3;
+}
+.col1
+{
+   color: #8A11BF;
+   width: 6px;
+   height: 22px;
+   font-size: 20px;
+   font-weight: bold;
+   position: absolute;
+   top: 49px;
+   left: 302.67px;
+   z-index: 3; 
+}
+.lin
+{
+    color: rgb(249, 247, 247);
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-weight: 100;
+}
+#wake
+{
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 120px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+#lunch
+{
+    color: white;
+    position: absolute;
+    top: 22px;
+    left: 120px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+#nap
+{
+    color: white;
+    position: absolute;
+    top: 48px;
+    left: 120px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+#night2
+{
+    color: white;
+    position: absolute;
+    top: 67px;
+    left: 120px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+button
+{
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+}
+
+
+
+@media (max-width:800px)
+{
+    #container
+    {
+        height: 1487px;
+        background: linear-gradient(rgb(93, 93, 165),rgb(98, 98, 164),rgb(115, 115, 236));
+        background-color: #191919;
+    }
+    .clock
+    {
+        position: absolute;
+        top: 34px;
+        left: 20px;
+    }
+    .time
+    {
+        width: 440px;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+    .t
+    {
+        width: 340px;
+    }
+    /* .t1
+    {
+        display: none;
+    }
+    .t2
+    {
+        position: absolute;
+        left: 40px;
+    }
+    .col
+    {
+        position: absolute;
+        left: 125px;
+    }
+    .t3
+    {
+        position: absolute;
+        left: 135px;
+    } */
+    .t5
+    {
+        display: none;
+    }
+    #times div
+    {
+        /* display: flex; */
+        padding: 0;
+        margin: 0;
+    }
+    .col1
+    {
+        position: absolute;
+        left: 220px;
+    }
+    /* .t4
+    {
+        position: absolute;
+        left: 230px;
+    }
+    .t5
+    {
+        position: absolute;
+        left: 330px;
+    } */
+    .zi1
+    {
+        width: 360px;
+        position: absolute;
+        top: 113px;
+        left: 60px;
+    }
+    .zi2
+    {
+        width: 320px;
+        position: absolute;
+        top: 125px;
+        left: 80px;
+    }
+    .w
+    {
+        width: 440px;
+        position: absolute;
+        top: 270px;
+        left: 20px;
+    }
+    select
+    {
+        width: 160px;
+    }
+    .m
+    {
+        width: 280px;
+        height: 70px;
+        font-size: 30px;
+        position: absolute;
+        top: 690px;
+        left: 90px;
+        text-align: center;
+        
+
+    }
+    .message
+    {
+        width: 440px;
+        height: 100px;
+        position: absolute;
+        top: 670px;
+        left: 20px;
+    }
+    .alarm
+    {
+        width: 440px;
+        position: absolute;
+        top: 800px;
+        left: 20px;
+    }
+    .a
+    {
+        position: absolute;
+        left: 70px;
+    }
+    .c
+    {
+        position: absolute;
+        top: 880px;
+        left: 55px;
+        width: 360px;
+        text-align: center;
+    }
+    .con
+    {
+        position: absolute;
+        top: 870px;
+        left: 20px;
+        width: 440px;
+    }
+    .bfm
+    {
+        font-size: 34px;
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        text-align: center;
+    }
+    .bf
+    {
+        position: absolute;
+        top: 1025px;
+        left: 20px;
+        width: 440px;
+    }
+    .fr
+    {
+        width: 440px;
+        position: absolute;
+        top: 1180px;
+        left: 20px;
+
+        
+        
+    }
+    .curtain
+    {
+        width: 440px;
+    }
+    img.fr
+    {
+        width: 350px;
+        display: none;
+        /* background-image: url(./Component\ 30\ –\ 1.svg) 250px 250px; */
+        
+    }
+    #mrng
+    {
+        width: 440px;
+        height: 306px;
+    }
+    #afternoon
+    {
+        width: 440px;
+        height: 306px;
+    }
+    #evening
+    {
+        width: 440px;
+        height: 306px;  
+    }
+    #gn
+    {
+        width: 440px;
+        height: 306px;
+    }
+    #noonmes
+    {
+        font-size: 20px;
+    }
+    #eve
+    {
+        font-size: 20px;
+    }
+    #night
+    {
+        font-size: 26px;
+        
+    }
+    #wake
+{
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 227px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+#lunch
+{
+    color: white;
+    position: absolute;
+    top: 22px;
+    left: 220px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+#nap
+{
+    color: white;
+    position: absolute;
+    top: 48px;
+    left: 220px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+#night2
+{
+    color: white;
+    position: absolute;
+    top: 67px;
+    left: 220px;
+    font-size: 15px;
+    display: inline;
+    width: 100px;
+}
+button
+{
+    position: absolute;
+    left: 160px;
+}    
+}
